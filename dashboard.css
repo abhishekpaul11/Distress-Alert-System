@@ -1,0 +1,146 @@
+.nav {
+  height: 7vh;
+  width: 100%;
+  background-color: rgb(14, 14, 24);
+  font-family: "Poppins", sans-serif;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  font-weight: bold;
+  font-style: "Poppins", sans-serif;
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: orangered;
+}
+
+.nav > #nav-check {
+  display: none;
+}
+.nav > .nav-right {
+  padding: 10px 10px 10px 10px;
+  display: inline-block;
+  font-size: 22px;
+  color: #ffffff;
+  right: 15px;
+  position: absolute;
+  font-weight: bold;
+  font-style: "Poppins", sans-serif;
+}
+.logo {
+  padding-bottom: 5px;
+  width: 40px;
+  height: 25px;
+  padding-left: 10px;
+}
+.leftbody {
+  display: inline-block;
+  background-image: url("images/speed.jpg");
+  background-size: 100% 100%;
+  width: 40%;
+  position: absolute;
+  right: 0px;
+  height: 93vh;
+  filter: blur(6px);
+  -webkit-filter: blur(6px);
+}
+.transbox {
+  display: inline-block;
+  width: 40%;
+  position: absolute;
+}
+
+.card {
+  background: #7b8185;
+  border: 1px solid #7b8185;
+  background: rgba(123, 129, 133, 0.4);
+  width: 90%;
+  height: 100px;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#map {
+  display: inline-block;
+  height: 92vh;
+  width: 60%;
+}
+
+.textarea {
+  height: 60px;
+  width: 53%;
+  border-radius: 10px;
+  border-color: black;
+  border-style: solid;
+  background-color: rgb(30, 32, 31);
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 25%;
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.textarea1 {
+  display: inline-block;
+  height: 50px;
+  width: 40%;
+  border-radius: 10px;
+  border-color: white;
+  border-style: solid;
+  background-color: rgb(30, 32, 31);
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.textarea2 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.button {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-left: 20px;
+  margin-top: 12px;
+  position: absolute;
+}
+.button1 {
+  width: 8vh;
+  height: 8vh;
+}

@@ -1,0 +1,12 @@
+#map {
+  display: inline-block;
+
+  width: 49%;
+  height: 96vh;
+}
+.graphs {
+  display: inline-block;
+  width: 50%;
+  height: 96vh;
+  position: absolute;
+}
